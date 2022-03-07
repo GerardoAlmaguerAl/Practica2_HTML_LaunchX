@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria Vegana</title>
+</head>
+
+<body>
+    <header>
+        <!-- NAV -->
+        <nav>
+            <a href="#home">Inicio</a>
+            <a href="#pedido">Pedidos</a>
+            <a href="admin.html">Administrador</a>
+        </nav>
+        <!-- HEADER -->
+        <section id="home" class="textos-header">
+            <h1>Pasteles</h1>
+            <img src="img/logo.png" alt="logo" class="image-logo">        
+            <h2>¡Pasteles veganos!</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #fff;"></path>
+            </svg></div>
+    </header>
+
+    <main>
+        <!-- Acerca de nosotros -->
+        <section id="nosotros" class="contenedor sobre-nosotros">
+            <h2 class="titulo">Acerca de Nosotros</h2>
+            <div class="contenedor-sobre-nosotros">
+                <img src="img/logo.png" alt="logo" class="image-about-us">
+                <div class="contenido-textos">
+                </div>
+            </div>
+            <br>
+        </section>
+        <!-- Menu de los sabores -->
+        <section id="menu" class="menu">
+            <div class="contenedor">
+                <h2 class="titulo">Nuestros Sabores</h2>
+                <div class="galeria-menu">
+                    <div class="imagen-menu">
+                        <img src="img/chocolate.jpeg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/logo.png" alt="">
+                            <p>Chocolate</p>
+                        </div>
+                    </div>
+                    <div class="imagen-menu">
+                        <img src="img/fresa.jpeg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/logo.png" alt="">
+                            <p>Fresa</p>
+                        </div>
+                    </div>
+                    <div class="imagen-menu">
+                        <img src="img/limon.jpeg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/logo.png" alt="">
+                            <p>Limón</p>
+                        </div>
+                    </div>
+                    <div class="imagen-menu">
+                        <img src="img/frutas.jpeg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/logo.png" alt="">
+                            <p>Frutas</p>
+                        </div>
+                    </div>
+                    <div class="imagen-menu">
+                        <img src="img/vainilla.jpeg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/logo.png" alt="">
+                            <p>Vainilla</p>
+                        </div>
+                    </div>
+                    <div class="imagen-menu">
+                        <img src="img/queso.jpeg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/logo.png" alt="">
+                            <p>Queso</p>
+                        </div>
+                    </div>
+                    <div class="imagen-menu">
+                        <img src="img/napoleon.jpeg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/logo.png" alt="">
+                            <p>Napoleón</p>
+                        </div>
+                    </div>
+                    <div class="imagen-menu">
+                        <img src="img/tresleches.jpeg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/logo.png" alt="">
+                            <p>Tres Leches</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br>
+        <br>
+        <!-- Especialidades -->
+        <section id="especiales" class="contenedor-especiales">
+            <h2 class="titulo">Pasteles para tus diferentes eventos u ocasiones </h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="img/bodas.jpg" alt="">
+                    <div class="contenido-texto-card">
+                        <h4>Bodas</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae, nam?</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/anyversario.jpg" alt="">
+                    <div class="contenido-texto-card">
+                        <h4>Cumpleaños</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae, nam?</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/infantil.jpg" alt="">
+                    <div class="contenido-texto-card">
+                        <h4>Despedidas</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae, nam?</p>
+                    </div>
+                </div>
+                
+            </div>
+
+        </section>
+        <br><br>
+        <!-- Formulario para el pedido -->
+        <section>
+            <div id="forms">
+                <br>
+                <h2 class="titulo">Tu pedido</h2>
+                <div class="underline">
+                </div>
+                <form action="#" method="post" id="pedido">
+                    <div class="name">
+                        <label for="name"></label>
+                        <input type="text" placeholder="Nombre:" name="name" id="name_input" required>
+                    </div>
+                    <div class="telefono">
+                        <label for="telefono"></label>
+                        <input type="text" placeholder="Telefono:" name="telefono" id="telefono_input" required>
+                    </div>
+                    <div class="direccion">
+                        <label for="direccion"></label>
+                        <input type="text" placeholder="Direccion:" name="direccion" id="direccion_input" required>
+                    </div>
+                    <div class="sabores">
+                        <label for="sabores"></label>
+                        <select placeholder="Escoge un sabor" name="sabores" id="sabores_input" required>
+                            <option disabled hidden selected>Elige el sabor</option>
+                            <option>Elige el Sabor</option>
+                            <option>Piña</option>
+                            <option>Fresa</option>
+                            <option>Vainilla</option>
+                            <option>Frutas</option>
+                            <option>Chocolate</option>
+                            <option>Pistache</option>
+                        </select>
+                    </div>
+                    <div class="decoracion">
+                        <label for="decoracion"></label>
+                        <select placeholder="ELIGE LA DECORACIÓN" name="subject" id="decoracion_input">
+                            <option disabled hidden selected>Elige la decoracion</option>
+                            <option>Elige decoracion</option>
+                            <option>Tarjeta</option>
+                            <option>Velas</option>
+                            <option>Mensaje personalizado</option>
+                            <option>Imagen</option>
+                            <option>Figura decoarativa</option>
+                        </select>
+                    </div>
+                    <div class="comentarios">
+                        <label for="comentarios"></label>
+                        <textarea name="COMENTARIOS" placeholder="Comentarios" id="comentarios_input" cols="30" rows="5"
+                            required></textarea>
+                    </div>
+                    <div class="submit">
+                        <input type="submit" value="Realizar Pedido" id="form_button" />
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>Ubicacion</h4>
+                <p>Guadalupe, Nuevo Leon. Mexico</p>
+            </div>
+            <div class="content-foo">
+                <h4>Telefono</h4>
+                <p>3318794105</p>
+            </div>
+            <div class="content-foo">
+                <h4>Horario</h4>
+                <p>Lunes a Viernes 8:00 - 18:00</p>
+            </div>
+            <div class="content-foo">
+                <h4>E-mail</h4>
+                <p>pasteleriavegana@hotmail.com</p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; Pasteleria Vegana | Loz</h2>
+    </footer>
+
+</body>
+</html>
